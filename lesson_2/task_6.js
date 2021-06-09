@@ -37,7 +37,6 @@ function mathOperation(arg1, arg2, operation) {
             break;
         case 'div':
             return div(arg1, arg2);
-            break;
     }
 }
 
