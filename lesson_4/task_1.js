@@ -14,9 +14,9 @@ function NumToObj(number) {
     }
     else {
         const obj = {
-            'единицы': number[2],
-            'десятки': number[1],
-            'сотни': number[0]
+            'единицы': number % 10,
+            'десятки': Math.floor(number / 10) % 10,
+            'сотни': Math.floor(number / 100)
         }
         return obj;
     }
