@@ -1,0 +1,19 @@
+.catalog-cart-wrapper {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.item-wrapper {
+    padding-bottom: 15px;
+    width: 300px;
+}
+
+.catalog {
+    padding-right: 30px;
+}
+
+.button-buy {
+    margin-bottom: 15px;
+}
